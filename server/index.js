@@ -30,7 +30,7 @@ const server = app.listen(process.env.PORT, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: ["https://chathub-3rd8bmvgp-premkumare69.vercel.app", "https://chathub.onrender.com"],
     credentials: true,
   },
 });
